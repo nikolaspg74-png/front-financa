@@ -7,8 +7,12 @@
       "config": {
         "distDir": "build"
       }
+    , "env": {
+      "NODE_OPTIONS": "--openssl-legacy-provider"
+    }
     }
   ],
+  
   "routes": [
     {
       "src": "/(.*)",
